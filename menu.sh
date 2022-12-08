@@ -10,6 +10,6 @@ read -p 'Menu: ' choice
 
 set -x
 case $choice in
-	'1') exec cowsay 'Paradise Donuts loves Christmas';;
+	'1') exec cowsay -f elephant remember the alamo;;
 	*) echo "Invalid menu number! Leaving now.";;
 esac
